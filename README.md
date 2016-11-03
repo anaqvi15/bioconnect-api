@@ -1,9 +1,14 @@
 # BioConnect REST API to delete users
 
-Base URL Staging: bioconnect.io:3000
+Base URL Staging: 
+```
+http://bioconnect.io:3000
+```
 
 BioConnect API requires all requests to have a valid API key, specified in HTTP authorization header as
+```
 Authorization: TZ3SNerXmyEvyPOomoXWCAtt
+```
 
 ## Delete many Users
 ### DELETE /users/delete?user_guids[]=:user_guid&user_guids[]=:user_guid...
