@@ -10,7 +10,7 @@ BioConnect API requires all requests to have a valid API key, specified in HTTP 
 Authorization: TZ3SNerXmyEvyPOomoXWCAtt
 ```
 
-## Delete many Users
+## Delete many users
 ### DELETE /users/delete?user_guids[]=:user_guid&user_guids[]=:user_guid...
 Response Object Type: JSON
 
@@ -29,7 +29,7 @@ status : String
 
 deleted_user_guids : Array of Strings
 
-## Example delete many users
+### Example: Delete many users
 ### DELETE /users/delete?user_guids[]=e1e43705-761d-4ab0-b882-967ffb91bb4e&users_guids[]=f9a7a7b4-09a7-4b66-966f-0c80633b9112
 Response
 ```javascript
@@ -39,7 +39,7 @@ Response
 }
 ```
 
-## Delete all Users
+## Delete all users
 ### DELETE /users/delete-all
 Response Object Type: JSON
 
@@ -56,7 +56,7 @@ status : String
 - "success"
 - "failure"
 
-## Example delete all users
+### Example: Delete all users
 ### DELETE /users/delete-all
 Response
 ```javascript
