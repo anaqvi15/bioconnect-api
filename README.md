@@ -2,7 +2,7 @@
 
 Base URL Staging: 
 ```
-http://bioconnect.io:3000
+http://bioconnect.io:3000/v1
 ```
 
 BioConnect API requires all requests to have a valid API key, specified in HTTP authorization header as
