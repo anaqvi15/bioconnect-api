@@ -12,6 +12,7 @@ Authorization: TZ3SNerXmyEvyPOomoXWCAtt
 
 ## Delete many users
 #### DELETE /users/delete?user_guids[]=:user_guid&user_guids[]=:user_guid...
+HTTP Method: DELETE
 
 Response Object Type: JSON
 
@@ -42,6 +43,8 @@ Response
 
 ## Delete all users
 #### DELETE /users/delete-all
+HTTP Method: DELETE
+
 Response Object Type: JSON
 
 Response Object Schema
